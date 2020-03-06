@@ -1,0 +1,22 @@
+.about-section {
+  padding: 5rem 1rem 1rem 2rem;
+  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+
+  p {
+    font-size: 1.1rem;
+    text-align: left;
+    // margin-bottom: 5rem;
+  }
+
+  .about__img {
+    margin-top: -3em;
+    margin-bottom: -5em;
+  }
+
+  @media(min-width: 768px) {
+    .about__img {
+      margin-top: -12em;
+      margin-bottom: 0;
+    }
+  }
+}
